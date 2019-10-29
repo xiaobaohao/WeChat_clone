@@ -5,9 +5,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '微信克隆',
-      theme: ThemeData(
-        primarySwatch: Colors.grey
-      ),
+      theme: ThemeData.dark()
       // home: ,
     );
   }
